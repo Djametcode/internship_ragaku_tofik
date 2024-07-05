@@ -8,11 +8,22 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      fontFamily: {
+        poopins: ["Poppins", "sans-serif"],
+        montserat: ["Montserrat", "sans-serif"]
       },
+      colors: {
+        header: "#FFFFFF",
+        bannerBg: "#FFF3E3",
+        bannerText: "#B88E2F"
+      },
+      backgroundImage: {
+        banner: "url('/banner.jpeg')",
+        browse1: "url('/browse1.png')",
+        browse2: "url('/browse2.png')",
+        browse3: "url('/browse3.png')",
+        shopcover: "url('/shopcover.jpeg')"
+      }
     },
   },
   plugins: [],
